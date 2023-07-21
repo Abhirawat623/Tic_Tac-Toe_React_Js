@@ -1,16 +1,16 @@
 
 
 
-const Square =()=>{
+const Square =(props)=>{
 
 
 
 return(
 
-<div className="square">
-    <h5>X</h5>
+<div className="square" onClick={props.onClick}>
+    <h5>{props.value}</h5>
 </div>
-//Hii I am w
+
 )
 
 };

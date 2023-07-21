@@ -40,10 +40,46 @@ color: white;
 .board{
 
   display: flex;
- 
+ justify-content: center;
+
 }
 .square{
   border: 2px solid rgb(255, 254, 254);
-  width: 100px;
+  min-width: 100px;
+  min-height:6rem;
+
 
 }
+.mover{
+position: relative;
+left:-7rem;
+bottom: -2rem;
+border: 1px solid white;
+height: 3rem;
+padding-top: 1rem;
+border-radius: 20px;
+background-color: white;
+color: black;
+font-weight: bolder;
+width: 60%;
+padding-left: 10px;
+padding-right: 10px;
+}
+.winner{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+.winner-btn{
+  border: 1px solid white;
+  height: 3rem;
+  
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  font-weight: 30vh;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
