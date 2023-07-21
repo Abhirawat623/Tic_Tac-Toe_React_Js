@@ -10,6 +10,14 @@ function App() {
         <Gameboard/>
         
       </header>
+      <footer >
+        <div className="naming">This is demo Website</div>
+        
+              
+              <div className="naming">Made by Abhishek Rawat</div>
+              
+      
+      </footer>
     </div>
   );
 }
